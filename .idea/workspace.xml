@@ -109,11 +109,6 @@
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f2029692" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f5e00d1d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f2029692" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d6616aba" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
           </expand>
           <select />
         </treeState>
@@ -131,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572696114783</updated>
       <workItem from="1572696123761" duration="5842000" />
-      <workItem from="1573487185026" duration="4198000" />
+      <workItem from="1573487185026" duration="4940000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1573399081232</created>
@@ -145,6 +140,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
