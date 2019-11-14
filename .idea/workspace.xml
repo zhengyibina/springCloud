@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9725af16-f427-48a2-acc5-6a32e409b4c2" name="Default Changelist" comment="" />
+    <list default="true" id="9725af16-f427-48a2-acc5-6a32e409b4c2" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/service-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/zheng/springcloud/serviceconsumer/ServiceConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/zheng/springcloud/serviceconsumer/ServiceConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/zheng/springcloud/serviceconsumer/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/zheng/springcloud/serviceconsumer/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/zheng/springcloud/serviceconsumer/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/zheng/springcloud/serviceconsumer/controller/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-provider/src/main/java/com/zheng/springcloud/serviceprovider/ServiceProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/src/main/java/com/zheng/springcloud/serviceprovider/ServiceProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-provider/src/main/resources/application.properties" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,11 +41,15 @@
       </set>
     </option>
   </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="F:/apache-maven-3.6.1/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="F:\apache-maven-3.6.1\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="localRepository" value="D:\apache-maven-3.6.1-bin\Repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -48,11 +67,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -71,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceConsumerApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zheng.springcloud.eurekaserver.EurekaServerApplication" />
@@ -99,17 +118,7 @@
       <serviceView>
         <option name="contentProportion" value="0.18852459" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f2029692" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f2029692" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f5e00d1d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -127,6 +136,9 @@
       <updated>1572696114783</updated>
       <workItem from="1572696123761" duration="5842000" />
       <workItem from="1573487185026" duration="4940000" />
+      <workItem from="1573535508018" duration="3077000" />
+      <workItem from="1573539447845" duration="600000" />
+      <workItem from="1573714601328" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1573399081232</created>
@@ -146,7 +158,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
